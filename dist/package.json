@@ -1,0 +1,36 @@
+{
+  "name": "n8n-nodes-litellm",
+  "version": "1.0.2",
+  "description": "Custom n8n node to connect with LiteLLM embeddings API",
+  "author": "Felipe Kimio",
+  "license": "MIT",
+  "keywords": [
+    "n8n-community-node-package",
+    "n8n",
+    "litellm",
+    "embeddings",
+    "ai"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --ext .ts",
+    "lintfix": "eslint . --ext .ts --fix"
+  },
+  "devDependencies": {
+    "@types/node": "^20.15",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "n8n-workflow": "1.109.0"
+  },
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "nodes": [
+      "dist/nodes/LiteLLM/LiteLLMEmbeddings.node.js"
+    ],
+    "credentials": [
+      "dist/credentials/LiteLLMCredentials.credentials.js"
+    ]
+  }
+}
