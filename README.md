@@ -21,11 +21,11 @@ A powerful custom node for [n8n](https://n8n.io/) that enables seamless integrat
 
 1. Build and copy the node to your n8n instance:
     ```sh
-    ./install-custom-node.sh
+    ./install-custom-node-local.sh
     ```
 2. Or, on Windows:
     ```bat
-    install-custom-node.bat
+    install-custom-node-local.bat
     ```
 
 ### Manual
