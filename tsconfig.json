@@ -7,6 +7,16 @@
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
+		"removeComments": true,
+		"useUnknownInCatchVariables": false,
+		"noImplicitAny": true,
+		"noImplicitReturns": true,
+		"noUnusedLocals": true,
+		"strictNullChecks": true,
+		"preserveConstEnums": true,
+		"resolveJsonModule": true,
+		"incremental": true,
+		"sourceMap": true,
     "forceConsistentCasingInFileNames": true
   },
 	"include": [
