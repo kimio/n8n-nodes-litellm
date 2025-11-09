@@ -2,7 +2,10 @@
   "name": "@kimio/n8n-nodes-litellm",
   "version": "1.0.3",
   "description": "Custom n8n node to connect with LiteLLM embeddings API",
-  "author": "Felipe Kimio",
+  "author": {
+    "name": "Felipe Kimio Nishikaku",
+    "email": "kimiokun1@gmail.com"
+  },
   "license": "MIT",
   "keywords": [
     "n8n-community-node-package",
@@ -11,6 +14,10 @@
     "embeddings",
     "ai"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kimio/n8n-nodes-litellm.git"
+  },
   "scripts": {
     "build": "tsc",
     "lint": "eslint . --ext .ts",
