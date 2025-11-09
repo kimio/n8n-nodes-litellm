@@ -1,7 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.LiteLLMEmbeddings = void 0;
-/* eslint-disable n8n-nodes-base/node-dirname-against-convention */
 const n8n_workflow_1 = require("n8n-workflow");
 const LiteLLMEmbeddingsClient_1 = require("./LiteLLMEmbeddingsClient");
 const modelParameter = {
@@ -88,3 +87,4 @@ class LiteLLMEmbeddings {
     }
 }
 exports.LiteLLMEmbeddings = LiteLLMEmbeddings;
+//# sourceMappingURL=LiteLLMEmbeddings.node.js.map
