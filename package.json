@@ -1,5 +1,5 @@
 {
-  "name": "n8n-nodes-litellm",
+  "name": "@kimio/n8n-nodes-litellm",
   "version": "1.0.2",
   "description": "Custom n8n node to connect with LiteLLM embeddings API",
   "author": "Felipe Kimio",

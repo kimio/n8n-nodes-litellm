@@ -1,4 +1,4 @@
-# n8n-nodes-litellm
+# @kimio/n8n-nodes-litellm
 
 A powerful custom node for [n8n](https://n8n.io/) that enables seamless integration with the [LiteLLM](https://github.com/BerriAI/litellm) Embeddings API. Effortlessly generate AI embeddings for your workflows, connect to vector stores, and supercharge your automations with state-of-the-art language models.
 
