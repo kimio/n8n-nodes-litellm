@@ -42,7 +42,7 @@ export class LiteLLMEmbeddings implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'LiteLLM Embeddings',
 		name: 'liteLLMEmbeddings',
-		icon: 'liteLLM.svg' as Icon,
+		icon: 'file:liteLLM.svg' as Icon,
 		credentials: [{ name: 'liteLLMApi', required: true }],
 		group: ['transform'],
 		version: 1,

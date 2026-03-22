@@ -34,7 +34,7 @@ class LiteLLMEmbeddings {
         this.description = {
             displayName: 'LiteLLM Embeddings',
             name: 'liteLLMEmbeddings',
-            icon: 'liteLLM.svg',
+            icon: 'file:liteLLM.svg',
             credentials: [{ name: 'liteLLMApi', required: true }],
             group: ['transform'],
             version: 1,
