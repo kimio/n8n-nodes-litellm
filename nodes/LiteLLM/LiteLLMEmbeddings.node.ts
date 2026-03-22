@@ -5,6 +5,7 @@ import {
     type SupplyData,
     type ISupplyDataFunctions,
     type INodeProperties,
+	Icon,
 } from 'n8n-workflow';
 import { LiteLLMEmbeddingsClient } from './LiteLLMEmbeddingsClient';
 
@@ -41,7 +42,7 @@ export class LiteLLMEmbeddings implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'LiteLLM Embeddings',
 		name: 'liteLLMEmbeddings',
-		icon: 'file:liteLLM.svg',
+		icon: 'liteLLM.svg' as Icon,
 		credentials: [{ name: 'liteLLMApi', required: true }],
 		group: ['transform'],
 		version: 1,

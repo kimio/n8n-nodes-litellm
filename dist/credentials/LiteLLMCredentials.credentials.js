@@ -5,7 +5,7 @@ class LiteLLMCredentials {
     constructor() {
         this.name = 'liteLLMApi';
         this.displayName = 'LiteLLM API';
-        this.icon = 'file:liteLLM.svg';
+        this.icon = 'liteLLM.svg';
         this.documentationUrl = '';
         this.properties = [
             {
