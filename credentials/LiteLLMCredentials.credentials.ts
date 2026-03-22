@@ -8,7 +8,7 @@ import {
 export class LiteLLMCredentials implements ICredentialType {
 	name = 'liteLLMApi';
 	displayName = 'LiteLLM API';
-    icon = 'liteLLM.svg' as Icon;
+    icon = 'file:liteLLM.svg' as Icon;
 	documentationUrl = '';
 	properties: INodeProperties[] = [
 		{
