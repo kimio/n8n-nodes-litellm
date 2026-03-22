@@ -1,6 +1,6 @@
 {
     "name": "@kimio/n8n-nodes-litellm",
-    "version": "1.0.10",
+    "version": "1.0.12",
     "description": "Custom n8n node to connect with LiteLLM embeddings API",
     "author": {
         "name": "Felipe Kimio Nishikaku",
